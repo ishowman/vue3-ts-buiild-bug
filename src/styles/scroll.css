@@ -1,0 +1,29 @@
+/* global scroll style */
+::-webkit-scrollbar {
+  @apply w-0 h-1.5;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* textarea */
+textarea {
+  cursor: auto;
+  overflow-y: visible;
+}
+textarea::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+textarea::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+textarea::-webkit-scrollbar-track {
+  margin: 1px;
+}
+.comiru-ui .el-dialog__body::-webkit-scrollbar {
+  @apply w-1;
+}

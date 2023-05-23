@@ -5,6 +5,22 @@
 export {}
 declare global {
   const EffectScope: typeof import('vue')['EffectScope']
+  const ElCheckbox: typeof import('element-plus/es')['ElCheckbox']
+  const ElCheckboxGroup: typeof import('element-plus/es')['ElCheckboxGroup']
+  const ElDatePicker: typeof import('element-plus/es')['ElDatePicker']
+  const ElDialog: typeof import('element-plus/es')['ElDialog']
+  const ElDrawer: typeof import('element-plus/es')['ElDrawer']
+  const ElForm: typeof import('element-plus/es')['ElForm']
+  const ElInput: typeof import('element-plus/es')['ElInput']
+  const ElMessage: typeof import('element-plus/es')['ElMessage']
+  const ElMessageBox: typeof import('element-plus/es')['ElMessageBox']
+  const ElRadio: typeof import('element-plus/es')['ElRadio']
+  const ElRadioGroup: typeof import('element-plus/es')['ElRadioGroup']
+  const ElSelectV2: typeof import('element-plus/es')['ElSelectV2']
+  const ElSwitch: typeof import('element-plus/es')['ElSwitch']
+  const ElTag: typeof import('element-plus/es')['ElTag']
+  const ElTransfer: typeof import('element-plus/es')['ElTransfer']
+  const ElUpload: typeof import('element-plus/es')['ElUpload']
   const computed: typeof import('vue')['computed']
   const createApp: typeof import('vue')['createApp']
   const customRef: typeof import('vue')['customRef']
@@ -61,9 +77,4 @@ declare global {
   const watchEffect: typeof import('vue')['watchEffect']
   const watchPostEffect: typeof import('vue')['watchPostEffect']
   const watchSyncEffect: typeof import('vue')['watchSyncEffect']
-}
-// for type re-export
-declare global {
-  // @ts-ignore
-  export type { Component, ComponentPublicInstance, ComputedRef, InjectionKey, PropType, Ref, VNode } from 'vue'
 }

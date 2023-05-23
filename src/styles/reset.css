@@ -1,0 +1,29 @@
+* {
+  /* margin: 0;
+  padding: 0; */
+  @apply p-0 m-0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--el-color-primary);
+}
+
+/* Reset Autocomplete styles*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  box-shadow: 0 0 0px 1000px var(--el-fill-color-blank) inset;
+  -webkit-box-shadow: 0 0 0px 1000px var(--el-fill-color-blank) inset;
+  transition: background-color 5000s ease-in-out 0s;
+}

@@ -1,0 +1,62 @@
+{
+  "src/constants/element.ts": [
+    {
+      "name": "ElDrawer",
+      "as": "ElDrawer",
+      "from": "element-plus/es",
+      "sideEffects": [
+        "element-plus/es/components/base/style/css",
+        "element-plus/es/components/drawer/style/css"
+      ]
+    },
+    {
+      "name": "ElDialog",
+      "as": "ElDialog",
+      "from": "element-plus/es",
+      "sideEffects": [
+        "element-plus/es/components/base/style/css",
+        "element-plus/es/components/dialog/style/css"
+      ]
+    },
+    {
+      "name": "ElUpload",
+      "as": "ElUpload",
+      "from": "element-plus/es",
+      "sideEffects": [
+        "element-plus/es/components/base/style/css",
+        "element-plus/es/components/upload/style/css"
+      ]
+    },
+    {
+      "name": "ElForm",
+      "as": "ElForm",
+      "from": "element-plus/es",
+      "sideEffects": [
+        "element-plus/es/components/base/style/css",
+        "element-plus/es/components/form/style/css"
+      ]
+    }
+  ],
+  "src/utils/axios.ts": [
+    {
+      "name": "ElMessage",
+      "as": "ElMessage",
+      "from": "element-plus/es",
+      "sideEffects": [
+        "element-plus/es/components/base/style/css",
+        "element-plus/es/components/message/style/css"
+      ]
+    }
+  ],
+  "src/utils/helper.ts": [
+    {
+      "name": "ElMessageBox",
+      "as": "ElMessageBox",
+      "from": "element-plus/es",
+      "sideEffects": [
+        "element-plus/es/components/base/style/css",
+        "element-plus/es/components/message-box/style/css"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "eslint.options": {
+    "overrideConfigFile": "configs/.eslintrc.cjs",
+    "ignorePath": "configs/.eslintignore"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "prettier.configPath": "configs/.prettierrc",
+  "prettier.ignorePath": "configs/.prettierignore",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // 默认使用 prettier 格式化文件; 使用 `"[json]": {"editor.defaultFormatter": "plugin name"}`自定义处理的插件
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
+}

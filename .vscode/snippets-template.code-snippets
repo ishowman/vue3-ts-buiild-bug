@@ -1,0 +1,23 @@
+{
+  "vue custom template ": {
+    "scope": "vue",
+    "prefix": "VueSetup",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "\t\t{{componentName}}",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script lang=\"ts\" setup>",
+      "\tconst componentName = \"${TM_FILENAME_BASE/(.)/${1:/upcase}/}\"",
+      "</script>",
+      "<style scoped >",
+      "\t",
+      "</style>",
+      ""
+    ],
+    "description": "快速生成 Vue script setup 模板"
+  },
+  
+}

@@ -1,0 +1,9 @@
+node_modules
+.DS_Store
+dist
+*.local
+auto-imports.d.ts
+components.d.ts
+configs/.eslintrc-auto-import.json
+public
+src/assets

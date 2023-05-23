@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'montserratbold';
+  src: url('../assets/montserrat-bold-3-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+.text-emphasize {
+  font-family: 'montserratbold';
+}
+.text-primary {
+  color: var(--el-text-color-primary);
+}
+.text-regular {
+  color: var(--el-text-color-regular);
+}
+.text-secondary {
+  color: var(--el-text-color-secondary);
+}
+.text-danger {
+  color: var(--el-color-danger);
+}
+.text-warning {
+  color: var(--el-color-warning);
+}

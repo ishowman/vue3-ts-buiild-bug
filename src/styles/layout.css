@@ -1,0 +1,20 @@
+/* grid layout */
+.grid-columns-auto {
+  grid-template-columns: 1fr auto;
+}
+.grid-rows-auto {
+  grid-template-rows: 1fr auto;
+}
+
+/* layout classes */
+.layout-container {
+  width: var(--layout-width);
+  @apply mx-auto h-full;
+  /* margin: 0 auto; */
+  /* height: 100%; */
+}
+.comiru-content {
+  @apply bg-white;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}

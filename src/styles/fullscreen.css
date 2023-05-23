@@ -1,0 +1,21 @@
+.fullscreen {
+  & #comiru-header {
+    @apply hidden;
+  }
+
+  & #comiru-breadcrumb {
+    @apply hidden;
+  }
+
+  & .layout-navs {
+    @apply hidden;
+  }
+
+  & .comiru-contents {
+    @apply mx-0 w-full;
+  }
+
+  & .table-block {
+    @apply w-screen;
+  }
+}
