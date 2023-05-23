@@ -33,7 +33,7 @@
 </template>
 
 <script lang="ts" setup>
-  import CIconFont from './CIconFont.vue';
+  // import CIconFont from './CIconFont.vue';
   // 组件 api 除了多一个 footer 插槽，其它与 https://element-plus.gitee.io/zh-CN/component/drawer.html 一致
   import { computed, useAttrs } from 'vue';
   export interface IDrawerProps {
